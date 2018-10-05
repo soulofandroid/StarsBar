@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ratingbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.starsbar.StarBar
+            android:id="@+id/starBar1"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            ratingbar:starCount="5"
+            ratingbar:starDistance="10dp"
+            ratingbar:starEmpty="@drawable/starlevel_gray"
+            ratingbar:starFill="@drawable/starlevel_orange"
+            ratingbar:starSize="11dp" />
+
+        <com.starsbar.StarBar
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:id="@+id/starBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            ratingbar:starCount="5"
+            ratingbar:starDistance="10dp"
+            ratingbar:starEmpty="@drawable/starlevel_gray"
+            ratingbar:starFill="@drawable/starlevel_orange"
+            ratingbar:starSize="11dp" />
+
+        <com.starsbar.StarBar
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:id="@+id/starBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            ratingbar:starCount="5"
+            ratingbar:starDistance="10dp"
+            ratingbar:starEmpty="@drawable/starlevel_gray"
+            ratingbar:starFill="@drawable/starlevel_orange"
+            ratingbar:starSize="11dp" />
+        
+        <com.starsbar.YStarView
+            android:id="@+id/starBar4"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="50dp"  />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
